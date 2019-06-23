@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Krunker.io hacks - by lebgbn.
-// @version      1.1
+// @version      1.3
 // @author       lebgbn
 // @include      /^https://krunker.io/docs/terms.txt/
 // @grant        GM_xmlhttpRequest
@@ -11,7 +11,7 @@
 
 window.stop();
 document.innerHTML = "";
-const version = '1.1';
+const version = '1.3';
 GM_xmlhttpRequest({
     method: "GET",
     url: document.location.origin,
